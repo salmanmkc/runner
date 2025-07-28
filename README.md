@@ -2,7 +2,7 @@
   <img src="docs/res/github-graph.png">
 </p>
 
-# GitHub Actions Runners
+# GitHub Actions Runner
 
 [![Actions Status](https://github.com/actions/runner/workflows/Runner%20CI/badge.svg)](https://github.com/actions/runner/actions)
 
