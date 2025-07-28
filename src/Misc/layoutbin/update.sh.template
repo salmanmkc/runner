@@ -154,7 +154,7 @@ then
                 fi
             fi
         fi
-        if [[ $? -eq 0 && -n "$path" ]]
+        if [[ $? -eq 0 && -n "$path" ]
         then
             # trim the last 5 characters of the path '/node'
             trimmedpath=$(dirname "$path")
