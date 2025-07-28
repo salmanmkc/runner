@@ -169,7 +169,7 @@ then
                     cp "$rootfolder/externals/$nodever/bin/node" "$path"
                 else
                     date "+[%F %T-%4N] Path for fallback node exists, skipping creating $path" >> "$logfile" 2>&1
-                fi
+                s
             else
                 date "+[%F %T-%4N] DarwinRunnerUpgrade: Failed to trim runner path. TrimmedPath: $trimmedpath, path: $path, pgid: $procgroup, root: $rootfolder" >> "$logfile" 2>&1
                 date "+[%F %T-%4N] DarwinRunnerUpgrade: Failed to trim runner path. TrimmedPath: $trimmedpath, path: $path, pgid: $procgroup, root: $rootfolder" >> "$telemetryfile" 2>&1
